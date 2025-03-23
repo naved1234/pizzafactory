@@ -4,8 +4,6 @@ PizzaFactory is a modular, object-oriented Java application that simulates a piz
 
 It supports multiple pizzas, customizations (crusts, toppings), business rule validation, side orders, and basic inventory management.
 
----
-
 ## Features
 
 - Select vegetarian or non-vegetarian pizzas
@@ -18,8 +16,6 @@ It supports multiple pizzas, customizations (crusts, toppings), business rule va
     - Factory Pattern
     - Strategy Pattern (for validation rules)
 - JUnit 5 test suite included
-
----
 
 ## Project Structure
 
@@ -41,8 +37,6 @@ src/
         ├── service/        # OrderService & InventoryService tests
         └── validation/     # Business rule tests
 ```
-
----
 
 ## ⚙️ Getting Started
 
@@ -71,8 +65,6 @@ src/
 
 > You can also run it directly via your IDE using `Main.java`
 
----
-
 ## Business Rules
 
 - Vegetarian pizza cannot have non-veg toppings
@@ -80,8 +72,6 @@ src/
 - Only one crust type per pizza
 - Only one non-veg topping allowed on non-veg pizza
 - Large pizzas allow 2 free toppings; others cost extra
-
----
 
 ## Running Tests
 
