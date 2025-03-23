@@ -1,0 +1,30 @@
+# Maven target folder
+/target/
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.swp
